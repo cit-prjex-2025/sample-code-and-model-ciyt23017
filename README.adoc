@@ -191,7 +191,12 @@ image::sample01_class_01.png[{full-width}]
 [source,shell]
 ----
 git status
-// ここに上記コマンドの実行結果（画像ではなくテキスト）を貼り付ける
+// On branch main
+// Your branch is up to date with 'origin/main'.
+
+// Changes to be committed:
+//   (use "git restore --staged <file>..." to unstage)
+//         modified:   images/sample01_class_01.png
 ----
 
 問題がなければプッシュしなさい。問題があれば、TAに相談しなさい。
@@ -199,7 +204,8 @@ git status
 [source,shell]
 ----
 git push
-// ここに上記コマンドの実行結果（画像ではなくテキスト）を貼り付ける
+// [main 98e5713] sample01のクラス図の追加
+//  1 file changed, 0 insertions(+), 0 deletions(-)
 ----
 
 また、 `git log` を実行して過去の処理について確認しなさい。
